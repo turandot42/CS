@@ -1,0 +1,20 @@
+@objects
+header      #header
+= header =
+header:
+@on desktop
+ height ${header.desktop.height}
+ @on mobile
+ height ${header.mobile.height}
+
+
+
+@groups
+
+ =planogramBrowserPage=
+
+planogramBrowserPage in local Chrome browser
+    selenium chrome https://planogram-browser-qc.azurewebsites.net/  1491x3640
+
+
+

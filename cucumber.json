@@ -1,0 +1,76 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Screenshot of each Cooler Screen should be taken successfully",
+        "description": "",
+        "id": "take-screenshot-of-cooler-screen;screenshot-of-each-cooler-screen-should-be-taken-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2554154969,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Planogram Browser homepage",
+            "match": {
+              "location": "CoolerScreenshot_step.i_am_on_the_Planogram_Browser_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 94891882,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on Get Coolers button",
+            "match": {
+              "location": "CoolerScreenshot_step.i_click_on_Get_Coolers_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 489485707042,
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: window was already closed\n  (Session info: chrome\u003d72.0.3626.119)\n  (Driver info: chromedriver\u003d2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform\u003dMac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Jamilas-MacBook-Pro.local\u0027, ip: \u0027fe80:0:0:0:149b:9aed:a6f8:416e%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.13.6\u0027, java.version: \u00271.8.0_181\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628411 (3324f4c8be9ff2..., userDataDir: /var/folders/rf/6c6hklrj20q...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60970}, handlesAlerts: true, hasTouchScreen: true, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: true, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.119, webStorageEnabled: true}\nSession ID: 39c688a0d109a1dff32ec911e41c7273\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.refresh(RemoteWebDriver.java:865)\n\tat step_definitions.CoolerScreenshot_step.i_navigate_to_each_of_them_and_take_a_screenshot(CoolerScreenshot_step.java:36)\n\tat ✽.And I navigate to each of them and take a screenshot(coolerScreenshot.feature:6)\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "I navigate to each of them and take a screenshot",
+            "match": {
+              "location": "CoolerScreenshot_step.i_navigate_to_each_of_them_and_take_a_screenshot()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "screenshots should be stored in a folder",
+            "match": {
+              "location": "CoolerScreenshot_step.screenshots_should_be_stored_in_a_folder()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Take Screenshot of Cooler Screen",
+    "description": "",
+    "id": "take-screenshot-of-cooler-screen",
+    "keyword": "Feature",
+    "uri": "coolerScreenshot.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Test"
+      }
+    ]
+  }
+]

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Cooler Screen" parallel="false" verbose="2" >
+    <listeners>
+        <listener class-name="dimensions.ScreenshotListener" />
+    </listeners>
+    <test name="Check Dimensions" verbose="2" group-by-instances="true">
+        <classes>
+            <class name="dimensions.CheckDimensions"/>
+        </classes>
+    </test>
+    <test name="Get Screenshots" enabled="false">
+        <classes>
+            <class name="step_definitions.CoolerScreenshot_step"/>
+        </classes>
+    </test>
+</suite>
